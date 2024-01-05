@@ -1,0 +1,54 @@
+.topbar{
+    background: var(--secondary-color);
+    color: var(--white);
+    padding: 8px 0;
+    font-size: 14px;
+
+    .container{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+
+        .topbar-left{
+            ul{
+            display: flex;
+            gap: 20px;
+            
+                li{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                }
+            }
+        }
+
+        .topbar-right{
+            ul{
+                display: flex;
+                gap: 1px;
+
+                li{
+                    background-color: var(--primary-color);
+                    padding: 5px 15px;
+                    cursor: pointer;
+                    transition: all .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+                    &:first-child{
+                        border-radius: 30px 0 0 30px;
+                    }
+
+                    &:last-child{
+                        border-radius: 0 30px 30px 0;
+                    }
+
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    }
+    
+}
+

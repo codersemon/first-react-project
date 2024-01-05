@@ -1,0 +1,22 @@
+.quote-area{
+    .container{
+        display: flex;
+        flex-flow: row wrap;
+        padding: 80px 0;
+
+        .quote-left{
+            flex-basis: 50%;
+        }
+
+        .quote-right{
+            flex-basis: 50%;
+
+            h2{
+                margin-bottom: 20px;
+                border-left: 2px solid var(--primary-color);
+                padding-left: 10px;
+                line-height: 20px;
+            }
+        }
+    }
+}

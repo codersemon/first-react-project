@@ -1,0 +1,50 @@
+.login-modal{
+    .login-form{
+        display: flex;
+        flex-flow: column wrap;
+        gap: 10px;
+        width: 300px;
+
+        .login-btn{
+            cursor: pointer;
+            background-color: var(--primary-color);
+            padding: 8px;
+            border: none;
+            color: var(--white);
+            transition: var(--transition);
+
+            &:hover{
+                background-color: var(--secondary-color);
+            }
+        }
+    }
+
+    .forgot-msg{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 10px;
+        color: var(--primary-color);
+
+        a{
+            text-decoration: none;
+            color: var(--red);
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .no-account-msg{
+        text-align: center;
+        margin-top: 15px;
+
+        .create-account-btn{
+            border: var(--border);
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+    }
+}

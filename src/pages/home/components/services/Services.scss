@@ -1,0 +1,33 @@
+.services-section{
+    padding: 100px 0;
+
+    .container{
+        .sub-title{
+            text-align: center;
+            color: var(--secondary-color);
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 3px;
+        }
+
+        .title{
+            text-align: center;
+            font-size: 45px;
+            max-width: 800px;
+            margin: 20px auto;
+            color: var(--text-bold-color);
+            line-height: 50px;
+        }
+
+        .services-wrap{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            margin-top: 60px;
+
+            .service-item{
+                width: 31%;
+            }
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+  "services": [
+    {
+      "subTitle": "WELLNESS",
+      "title": "Live Consultation Scheduling",
+      "img": "https://elkit.wirastudio.co/sikiater/wp-content/uploads/sites/32/elementor/thumbs/professional-psychiatrist-q7oric3c1ul8ej3yzp021d4ddbu579dj5qmq9jzk1s.jpg",
+      "link": "service_1",
+      "id": 1
+    },
+    {
+      "subTitle": "HEALTH",
+      "title": "Mental Health Going Back Again",
+      "img": "https://elkit.wirastudio.co/sikiater/wp-content/uploads/sites/32/elementor/thumbs/young-woman-talking-to-psychiatrist-q7orihqd6usyc6vs2rftgbp4xn2chfzx6ijn57r70g.jpg",
+      "link": "service_2",
+      "id": 2
+    },
+    {
+      "subTitle": "PSYCHIATRIST",
+      "title": "Psychiatrist People Work Agency",
+      "img": "https://elkit.wirastudio.co/sikiater/wp-content/uploads/sites/32/elementor/thumbs/psychiatrist-examining-a-female-patient-q7ori7e53oesshasr4yx6wb2eehb4ruvh3dav66iww.jpg",
+      "link": "service_3",
+      "id": 3
+    },
+    {
+      "subTitle": "MENTAL HEALTH",
+      "title": "LGBTQ+ Mental Health Recovery",
+      "img": "https://elkit.wirastudio.co/sikiater/wp-content/uploads/sites/32/elementor/thumbs/mental-health-and-counseling-1-q7x98t9aldmkdfl6waytmx28pebb0ibqeqppt8koxs.jpg",
+      "link": "service_4",
+      "id": 4
+    },
+    {
+      "subTitle": "HEALTH",
+      "title": "Eating Disorders Mental Health",
+      "img": "https://elkit.wirastudio.co/sikiater/wp-content/uploads/sites/32/elementor/thumbs/psychiatrist-at-work--q7orq552tb9ytxrqekhi8w76zjcw4rd9wdowraeudc.jpg",
+      "link": "service_5",
+      "id": 5
+    },
+    {
+      "subTitle": "MENTAL",
+      "title": "Anxiety And Mood Disorders",
+      "img": "https://elkit.wirastudio.co/sikiater/wp-content/uploads/sites/32/elementor/thumbs/psychiatrist-talking-to-patient-sitting-on-the-floor-in-a-mental-health-center-q7orki3xt3k165ync4q3abfmob5ly4z94gs13irvpc.jpg",
+      "link": "service_6",
+      "id": 6
+    }
+  ],
+  "users": []
+}

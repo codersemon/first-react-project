@@ -1,0 +1,41 @@
+:root {
+  --primary-color: #0496ff;
+  --secondary-color: #006ba6;
+  --white: #ffffff;
+  --menu-nav: #7f7f7f;
+  --yellow: #FFBC42;
+  --red: #eb2f06;
+  --gray-light: #cccccc;
+  --gray: #f9f9f9;
+  --text-bold-color: #383838;
+
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --box-shadow2: box-shadow: box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+  --border: 1px solid #cccccc;
+  --transition: all .3s ease-in-out;
+}
+
+::selection{
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+input:not([type="radio"]), select, textarea{
+  padding: 10px 15px;
+  border-radius: 4px;
+  border: var(--border);
+  width: 100%;
+}
+.Toastify {
+  z-index: 999999;
+  position: relative;
+}
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm{
+  background-color: var(--primary-color) !important;
+}

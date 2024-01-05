@@ -1,0 +1,25 @@
+.quote-wrapper{
+    .quote-form{
+        display: flex;
+        flex-flow: column wrap;
+        gap: 10px;
+
+        .h-input{
+            display: flex;
+            gap: 10px;
+        }
+
+        .quote-submit-btn{
+            border: none;
+            background-color: var(--primary-color);
+            color: var(--white);
+            cursor: pointer;
+            transition: var(--transition);
+
+            &:hover{
+                background-color: var(--secondary-color);
+            }
+        }
+    }   
+}
+
